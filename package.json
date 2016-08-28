@@ -1,0 +1,28 @@
+{
+  "name": "yet-another-nunjucks-koa-render",
+  "version": "1.0.0",
+  "description": "Allows nunjucks templates to koa 2.0",
+  "main": "render.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Siedrix/yet-another-nunjucks-koa-render.git"
+  },
+  "keywords": [
+    "nunjucks",
+    "koa",
+    "templates"
+  ],
+  "author": "Daniel Zavala",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Siedrix/yet-another-nunjucks-koa-render/issues"
+  },
+  "homepage": "https://github.com/Siedrix/yet-another-nunjucks-koa-render#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "lodash": "^4.15.0"
+  }
+}
