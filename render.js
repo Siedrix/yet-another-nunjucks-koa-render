@@ -9,8 +9,8 @@ module.exports = function(nunjucks, opts) {
 		ctx.render = function(view, context) {
 			return new Promise(function(resolve, reject) {
 				_.merge(context, ctx.state)
-				
-				nunjucks.render(view+ opts.ext, context, function(err, body) {
+
+				nunjucks.render(view+ opts.ext, _.merge(context || {}, ctx.state), function(err, body) {
 					if (err){ return reject(err) }
 
 					ctx.body = body;
